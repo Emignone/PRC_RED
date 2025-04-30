@@ -1,0 +1,97 @@
+#!/usr/bin/icm
+call _startup
+
+maxFileSizeMb=10000
+openFile "rmsd_results.sdf"
+openFile "aldr_1el3_rec.mol2"
+openFile "aldr_1pwl_rec.mol2"
+openFile "aldr_1t40_rec.mol2"
+openFile "aldr_1x98_rec.mol2"
+openFile "aldr_2agt_rec.mol2"
+openFile "aldr_2hv5_rec.mol2"
+openFile "aldr_2nvc_rec.mol2"
+rmsd_1el3_1pwl=Rarray(1,0.)
+rmsd_1el3_1t40=Rarray(1,0.)
+rmsd_1el3_1x98=Rarray(1,0.)
+rmsd_1el3_2agt=Rarray(1,0.)
+rmsd_1el3_2hv5=Rarray(1,0.)
+rmsd_1el3_2nvc=Rarray(1,0.)
+rmsd_1pwl_1t40=Rarray(1,0.)
+rmsd_1pwl_1x98=Rarray(1,0.)
+rmsd_1pwl_2agt=Rarray(1,0.)
+rmsd_1pwl_2hv5=Rarray(1,0.)
+rmsd_1pwl_2nvc=Rarray(1,0.)
+rmsd_1t40_1x98=Rarray(1,0.)
+rmsd_1t40_2agt=Rarray(1,0.)
+rmsd_1t40_2hv5=Rarray(1,0.)
+rmsd_1t40_2nvc=Rarray(1,0.)
+rmsd_1x98_2agt=Rarray(1,0.)
+rmsd_1x98_2hv5=Rarray(1,0.)
+rmsd_1x98_2nvc=Rarray(1,0.)
+rmsd_2agt_2hv5=Rarray(1,0.)
+rmsd_2agt_2nvc=Rarray(1,0.)
+rmsd_2hv5_2nvc=Rarray(1,0.)
+superimpose a_1.*/SHGEI/ca,c,n a_2.*/SHGEI/ca,c,n align
+rmsd_1el3_1pwl[1]= Srmsd(a_1.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_2.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1el3_1pwl name="rmsd_1el3_1pwl" append
+superimpose a_1.*/SHGEI/ca,c,n a_3.*/SHGEI/ca,c,n align
+rmsd_1el3_1t40[1]= Srmsd(a_1.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_3.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1el3_1t40 name="rmsd_1el3_1t40" append
+superimpose a_1.*/SHGEI/ca,c,n a_4.*/SHGEI/ca,c,n align
+rmsd_1el3_1x98[1]= Srmsd(a_1.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_4.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1el3_1x98 name="rmsd_1el3_1x98" append
+superimpose a_1.*/SHGEI/ca,c,n a_5.*/SHGEI/ca,c,n align
+rmsd_1el3_2agt[1]= Srmsd(a_1.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_5.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1el3_2agt name="rmsd_1el3_2agt" append
+superimpose a_1.*/SHGEI/ca,c,n a_6.*/SHGEI/ca,c,n align
+rmsd_1el3_2hv5[1]= Srmsd(a_1.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_6.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1el3_2hv5 name="rmsd_1el3_2hv5" append
+superimpose a_1.*/SHGEI/ca,c,n a_7.*/SHGEI/ca,c,n align
+rmsd_1el3_2nvc[1]= Srmsd(a_1.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_7.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1el3_2nvc name="rmsd_1el3_2nvc" append
+superimpose a_2.*/SHGEI/ca,c,n a_3.*/SHGEI/ca,c,n align
+rmsd_1pwl_1t40[1]= Srmsd(a_2.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_3.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1pwl_1t40 name="rmsd_1pwl_1t40" append
+superimpose a_2.*/SHGEI/ca,c,n a_4.*/SHGEI/ca,c,n align
+rmsd_1pwl_1x98[1]= Srmsd(a_2.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_4.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1pwl_1x98 name="rmsd_1pwl_1x98" append
+superimpose a_2.*/SHGEI/ca,c,n a_5.*/SHGEI/ca,c,n align
+rmsd_1pwl_2agt[1]= Srmsd(a_2.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_5.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1pwl_2agt name="rmsd_1pwl_2agt" append
+superimpose a_2.*/SHGEI/ca,c,n a_6.*/SHGEI/ca,c,n align
+rmsd_1pwl_2hv5[1]= Srmsd(a_2.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_6.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1pwl_2hv5 name="rmsd_1pwl_2hv5" append
+superimpose a_2.*/SHGEI/ca,c,n a_7.*/SHGEI/ca,c,n align
+rmsd_1pwl_2nvc[1]= Srmsd(a_2.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_7.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1pwl_2nvc name="rmsd_1pwl_2nvc" append
+superimpose a_3.*/SHGEI/ca,c,n a_4.*/SHGEI/ca,c,n align
+rmsd_1t40_1x98[1]= Srmsd(a_3.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_4.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1t40_1x98 name="rmsd_1t40_1x98" append
+superimpose a_3.*/SHGEI/ca,c,n a_5.*/SHGEI/ca,c,n align
+rmsd_1t40_2agt[1]= Srmsd(a_3.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_5.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1t40_2agt name="rmsd_1t40_2agt" append
+superimpose a_3.*/SHGEI/ca,c,n a_6.*/SHGEI/ca,c,n align
+rmsd_1t40_2hv5[1]= Srmsd(a_3.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_6.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1t40_2hv5 name="rmsd_1t40_2hv5" append
+superimpose a_3.*/SHGEI/ca,c,n a_7.*/SHGEI/ca,c,n align
+rmsd_1t40_2nvc[1]= Srmsd(a_3.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_7.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1t40_2nvc name="rmsd_1t40_2nvc" append
+superimpose a_4.*/SHGEI/ca,c,n a_5.*/SHGEI/ca,c,n align
+rmsd_1x98_2agt[1]= Srmsd(a_4.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_5.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1x98_2agt name="rmsd_1x98_2agt" append
+superimpose a_4.*/SHGEI/ca,c,n a_6.*/SHGEI/ca,c,n align
+rmsd_1x98_2hv5[1]= Srmsd(a_4.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_6.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1x98_2hv5 name="rmsd_1x98_2hv5" append
+superimpose a_4.*/SHGEI/ca,c,n a_7.*/SHGEI/ca,c,n align
+rmsd_1x98_2nvc[1]= Srmsd(a_4.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_7.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_1x98_2nvc name="rmsd_1x98_2nvc" append
+superimpose a_5.*/SHGEI/ca,c,n a_6.*/SHGEI/ca,c,n align
+rmsd_2agt_2hv5[1]= Srmsd(a_5.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_6.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_2agt_2hv5 name="rmsd_2agt_2hv5" append
+superimpose a_5.*/SHGEI/ca,c,n a_7.*/SHGEI/ca,c,n align
+rmsd_2agt_2nvc[1]= Srmsd(a_5.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_7.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_2agt_2nvc name="rmsd_2agt_2nvc" append
+superimpose a_6.*/SHGEI/ca,c,n a_7.*/SHGEI/ca,c,n align
+rmsd_2hv5_2nvc[1]= Srmsd(a_6.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h* a_7.*/20,79,111,219,21,77,47,48,309,49,80,298,303,110,113,115,121,122,311,160,216,218,310,299,300,301,302/!h*)
+add column rmsd_results rmsd_2hv5_2nvc name="rmsd_2hv5_2nvc" append
+write table mol compress rmsd_results "rmsd_results.sdf"
