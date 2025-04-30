@@ -1,0 +1,34 @@
+#!/usr/bin/icm
+call _startup
+
+maxFileSizeMb=10000
+openFile "rmsd_results.sdf"
+openFile "cdk2_3r7i_rec.mol2"
+openFile "cdk2_1fvv_rec.mol2"
+openFile "cdk2_1h00_rec.mol2"
+openFile "cdk2_3qrt_rec.mol2"
+rmsd_3r7i_1fvv=Rarray(1,0.)
+rmsd_3r7i_1h00=Rarray(1,0.)
+rmsd_3r7i_3qrt=Rarray(1,0.)
+rmsd_1fvv_1h00=Rarray(1,0.)
+rmsd_1fvv_3qrt=Rarray(1,0.)
+rmsd_1h00_3qrt=Rarray(1,0.)
+superimpose a_1.*/SHGEI/ca,c,n a_2.*/SHGEI/ca,c,n align
+rmsd_3r7i_1fvv[1]= Srmsd(a_1.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h* a_2.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h*)
+add column rmsd_results rmsd_3r7i_1fvv name="rmsd_3r7i_1fvv" append
+superimpose a_1.*/SHGEI/ca,c,n a_3.*/SHGEI/ca,c,n align
+rmsd_3r7i_1h00[1]= Srmsd(a_1.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h* a_3.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h*)
+add column rmsd_results rmsd_3r7i_1h00 name="rmsd_3r7i_1h00" append
+superimpose a_1.*/SHGEI/ca,c,n a_4.*/SHGEI/ca,c,n align
+rmsd_3r7i_3qrt[1]= Srmsd(a_1.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h* a_4.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h*)
+add column rmsd_results rmsd_3r7i_3qrt name="rmsd_3r7i_3qrt" append
+superimpose a_2.*/SHGEI/ca,c,n a_3.*/SHGEI/ca,c,n align
+rmsd_1fvv_1h00[1]= Srmsd(a_2.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h* a_3.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h*)
+add column rmsd_results rmsd_1fvv_1h00 name="rmsd_1fvv_1h00" append
+superimpose a_2.*/SHGEI/ca,c,n a_4.*/SHGEI/ca,c,n align
+rmsd_1fvv_3qrt[1]= Srmsd(a_2.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h* a_4.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h*)
+add column rmsd_results rmsd_1fvv_3qrt name="rmsd_1fvv_3qrt" append
+superimpose a_3.*/SHGEI/ca,c,n a_4.*/SHGEI/ca,c,n align
+rmsd_1h00_3qrt[1]= Srmsd(a_3.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h* a_4.*/8,12,81,10,13,18,64,31,144,33,89,80,82,83,134,84,85,131,86,145,132/!h*)
+add column rmsd_results rmsd_1h00_3qrt name="rmsd_1h00_3qrt" append
+write table mol compress rmsd_results "rmsd_results.sdf"

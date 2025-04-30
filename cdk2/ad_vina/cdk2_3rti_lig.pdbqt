@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N1_2 
+REMARK    2  A    between atoms: C3_7  and  C7_13 
+REMARK    3  A    between atoms: N3_8  and  C8_14 
+REMARK    4  A    between atoms: C8_14  and  C9_15 
+REMARK    5  A    between atoms: C12_18  and  C15_21 
+ROOT
+ATOM      1  C1  X9I d   1      94.878  80.552 -47.656  0.00  0.00     0.127 A 
+ATOM      2  C2  X9I d   1      94.564  81.162 -48.912  0.00  0.00     0.029 A 
+ATOM      3  C3  X9I d   1      93.242  81.613 -49.214  0.00  0.00     0.064 A 
+ATOM      4  N3  X9I d   1      90.934  81.880 -48.538  0.00  0.00    -0.266 NA
+ATOM      5  C4  X9I d   1      92.167  81.460 -48.237  0.00  0.00     0.080 A 
+ATOM      6  C5  X9I d   1      92.517  80.836 -46.959  0.00  0.00     0.021 A 
+ATOM      7  C6  X9I d   1      93.840  80.399 -46.689  0.00  0.00     0.025 A 
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  X9I d   1      96.173  80.116 -47.392  0.00  0.00    -0.114 N 
+ATOM      9  O1  X9I d   1      96.483  79.541 -46.223  0.00  0.00    -0.532 OA
+ATOM     10  O2  X9I d   1      97.147  80.260 -48.302  0.00  0.00    -0.532 OA
+ENDBRANCH   1   8
+BRANCH   3  11
+ATOM     11  C7  X9I d   1      93.027  82.213 -50.556  0.00  0.00     0.234 C 
+ATOM     12  N2  X9I d   1      93.732  81.789 -51.632  0.00  0.00    -0.118 N 
+ATOM     13  O3  X9I d   1      92.089  83.153 -50.704  0.00  0.00    -0.167 OA
+ENDBRANCH   3  11
+BRANCH   4  14
+ATOM     14  C8  X9I d   1      89.720  81.752 -47.727  0.00  0.00     0.152 C 
+BRANCH  14  15
+ATOM     15  C9  X9I d   1      89.587  82.753 -46.618  0.00  0.00     0.002 A 
+ATOM     16  C10 X9I d   1      89.442  82.292 -45.282  0.00  0.00    -0.002 A 
+ATOM     17  C11 X9I d   1      89.303  83.215 -44.217  0.00  0.00     0.006 A 
+ATOM     18  C12 X9I d   1      89.303  84.629 -44.462  0.00  0.00     0.064 A 
+ATOM     19  C13 X9I d   1      89.452  85.092 -45.825  0.00  0.00     0.006 A 
+ATOM     20  C14 X9I d   1      89.592  84.158 -46.888  0.00  0.00    -0.002 A 
+BRANCH  18  21
+ATOM     21  C15 X9I d   1      89.148  85.529 -43.308  0.00  0.00     0.211 C 
+ATOM     22  O16 X9I d   1      89.024  85.041 -42.153  0.00  0.00    -0.644 OA
+ATOM     23  O17 X9I d   1      89.145  86.758 -43.524  0.00  0.00    -0.644 OA
+ENDBRANCH  18  21
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 5
