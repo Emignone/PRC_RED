@@ -1,0 +1,55 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N2_3  and  C1_10 
+REMARK    1  A    between atoms: C5_4  and  C9_8 
+REMARK    2  A    between atoms: C1_10  and  C2_11 
+REMARK    3  A    between atoms: C2_11  and  N1_13 
+REMARK    4  A    between atoms: N1_13  and  C4_15 
+REMARK    5  A    between atoms: C3_14  and  C4_15 
+REMARK    6  A    between atoms: C4_15  and  C14_18 
+REMARK    7  A    between atoms: C14_18  and  C15_19 
+REMARK    8  A    between atoms: C15_19  and  C16_20 
+ROOT
+ATOM      1  O4  EAL d   1      38.804  33.684  41.705  0.00  0.00    -0.646 OA
+ATOM      2  O5  EAL d   1      40.674  32.586  42.127  0.00  0.00    -0.646 OA
+ATOM      3  C9  EAL d   1      40.041  33.603  42.040  0.00  0.00     0.207 C 
+ENDROOT
+BRANCH   3   4
+ATOM      4  C5  EAL d   1      40.684  35.023  42.363  0.00  0.00     0.171 A 
+ATOM      5  N2  EAL d   1      41.757  34.874  43.435  0.00  0.00    -0.311 N 
+ATOM      6  C8  EAL d   1      43.094  35.308  42.933  0.00  0.00     0.105 A 
+ATOM      7  C1  EAL d   1      41.415  34.391  44.676  0.00  0.00     0.256 C 
+ATOM      8  C7  EAL d   1      42.821  35.728  41.557  0.00  0.00     0.027 A 
+ATOM      9  C6  EAL d   1      41.509  35.588  41.179  0.00  0.00     0.035 A 
+ATOM     10  O1  EAL d   1      40.192  34.094  44.927  0.00  0.00    -0.270 OA
+BRANCH   7  11
+ATOM     11  C2  EAL d   1      42.492  34.196  45.813  0.00  0.00     0.177 C 
+ATOM     12  C10 EAL d   1      43.074  32.775  45.712  0.00  0.00     0.036 C 
+BRANCH  11  13
+ATOM     13  N1  EAL d   1      41.771  34.472  47.118  0.00  0.00    -0.279 NA
+BRANCH  13  14
+ATOM     14  C4  EAL d   1      41.198  35.509  47.485  0.00  0.00     0.185 C 
+BRANCH  14  15
+ATOM     15  C3  EAL d   1      42.207  36.664  47.530  0.00  0.00     0.208 C 
+ATOM     16  O2  EAL d   1      43.285  36.522  48.186  0.00  0.00    -0.646 OA
+ATOM     17  O3  EAL d   1      41.988  37.694  46.909  0.00  0.00    -0.646 OA
+ENDBRANCH  14  15
+BRANCH  14  18
+ATOM     18  C14 EAL d   1      40.506  35.772  48.779  0.00  0.00     0.035 C 
+BRANCH  18  19
+ATOM     19  C15 EAL d   1      39.303  36.665  49.029  0.00  0.00     0.003 C 
+BRANCH  19  20
+ATOM     20  C16 EAL d   1      38.747  36.791  50.411  0.00  0.00     0.000 A 
+ATOM     21  C17 EAL d   1      38.524  35.600  51.257  0.00  0.00     0.000 A 
+ATOM     22  C18 EAL d   1      37.971  35.745  52.595  0.00  0.00     0.000 A 
+ATOM     23  C19 EAL d   1      37.630  37.081  53.111  0.00  0.00     0.000 A 
+ATOM     24  C20 EAL d   1      37.850  38.274  52.274  0.00  0.00     0.000 A 
+ATOM     25  C21 EAL d   1      38.407  38.130  50.926  0.00  0.00     0.000 A 
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+ENDBRANCH   7  11
+ENDBRANCH   3   4
+TORSDOF 8
