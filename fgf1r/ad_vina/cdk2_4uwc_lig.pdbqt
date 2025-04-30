@@ -1,0 +1,47 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N6_3 
+REMARK       I    between atoms: N6_3  and  C7_5 
+REMARK    2  A    between atoms: C7_5  and  C9_7 
+REMARK    3  A    between atoms: C11_9  and  O17_10 
+REMARK    4  A    between atoms: C12_12  and  O18_15 
+REMARK    5  A    between atoms: C4_20  and  C13_21 
+ROOT
+ATOM      1  C2  4Y0 d   1      86.912   1.098  10.190  0.00  0.00     0.000 A 
+ATOM      2  C3  4Y0 d   1      86.872   0.135   9.182  0.00  0.00     0.352 A 
+ATOM      3  N5  4Y0 d   1      87.646  -0.912   9.455  0.00  0.00    -0.707 NA
+ATOM      4  N1  4Y0 d   1      88.190  -0.595  10.675  0.00  0.00     0.300 N 
+ATOM      5  H1  4Y0 d   1      88.827  -1.260  11.101  0.00  0.00     0.270 HD
+ATOM      6  C4  4Y0 d   1      87.788   0.608  11.131  0.00  0.00    -0.205 A 
+ENDROOT
+BRANCH   2   7
+ATOM      7  N6  4Y0 d   1      86.136   0.124   7.990  0.00  0.00    -0.493 N 
+ATOM      8  H6  4Y0 d   1      86.293  -0.700   7.420  0.00  0.00     0.370 HD
+ATOM      9  C7  4Y0 d   1      85.315   1.138   7.527  0.00  0.00     0.544 C 
+ATOM     10  O2  4Y0 d   1      85.257   2.229   8.087  0.00  0.00    -0.570 OA
+BRANCH   9  11
+ATOM     11  C9  4Y0 d   1      84.494   0.857   6.300  0.00  0.00     0.086 A 
+ATOM     12  C10 4Y0 d   1      83.353   1.633   6.086  0.00  0.00     0.000 A 
+ATOM     13  C11 4Y0 d   1      82.564   1.430   4.956  0.00  0.00     0.083 A 
+ATOM     14  C12 4Y0 d   1      82.918   0.433   4.027  0.00  0.00     0.083 A 
+ATOM     15  C16 4Y0 d   1      84.063  -0.323   4.237  0.00  0.00     0.000 A 
+ATOM     16  C15 4Y0 d   1      84.840  -0.110   5.360  0.00  0.00     0.000 A 
+BRANCH  13  17
+ATOM     17  O17 4Y0 d   1      81.430   2.135   4.648  0.00  0.00    -0.363 OA
+ATOM     18  C21 4Y0 d   1      81.153   3.326   5.389  0.00  0.00     0.280 C 
+ENDBRANCH  13  17
+BRANCH  14  19
+ATOM     19  O18 4Y0 d   1      82.072   0.306   2.956  0.00  0.00    -0.363 OA
+ATOM     20  C   4Y0 d   1      82.416  -0.623   1.926  0.00  0.00     0.280 C 
+ENDBRANCH  14  19
+ENDBRANCH   9  11
+ENDBRANCH   2   7
+BRANCH   6  21
+ATOM     21  C13 4Y0 d   1      88.190   1.159  12.438  0.00  0.00     0.053 A 
+ATOM     22  C19 4Y0 d   1      88.172   0.352  13.573  0.00  0.00     0.000 A 
+ATOM     23  C23 4Y0 d   1      88.391   0.898  14.827  0.00  0.00     0.000 A 
+ATOM     24  C24 4Y0 d   1      88.636   2.246  14.967  0.00  0.00     0.000 A 
+ATOM     25  C22 4Y0 d   1      88.623   3.062  13.853  0.00  0.00     0.000 A 
+ATOM     26  C20 4Y0 d   1      88.344   2.532  12.602  0.00  0.00     0.000 A 
+ENDBRANCH   6  21
+TORSDOF 5

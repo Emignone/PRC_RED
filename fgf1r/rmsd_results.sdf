@@ -1,0 +1,51 @@
+
+  MOLSOFT 04212510580D
+
+  0  0  0  0  0  0  0  0  0  0999 V2000
+M  END
+> <rmsd_1agw_1fgi>
+1.489236
+
+> <rmsd_1agw_1fgk>
+1.335905
+
+> <rmsd_1agw_2fgi>
+1.361452
+
+> <rmsd_1agw_3c4f>
+1.54868
+
+> <rmsd_1agw_4uwc>
+1.539984
+
+> <rmsd_1fgi_1fgk>
+1.522425
+
+> <rmsd_1fgi_2fgi>
+1.546588
+
+> <rmsd_1fgi_3c4f>
+1.544188
+
+> <rmsd_1fgi_4uwc>
+2.13579
+
+> <rmsd_1fgk_2fgi>
+1.410197
+
+> <rmsd_1fgk_3c4f>
+1.559932
+
+> <rmsd_1fgk_4uwc>
+1.550693
+
+> <rmsd_2fgi_3c4f>
+1.611925
+
+> <rmsd_2fgi_4uwc>
+1.609417
+
+> <rmsd_3c4f_4uwc>
+2.122541
+
+$$$$

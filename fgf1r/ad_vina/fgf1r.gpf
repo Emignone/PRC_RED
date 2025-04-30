@@ -1,0 +1,17 @@
+npts 18 17 20                        # num.grid points in xyz
+gridfld fgf1r_4uwc_rec.maps.fld      # grid_data_file
+spacing 1.0                          # spacing(A)
+receptor_types A C H HD N NA OA SA   # receptor atom types
+ligand_types A C NA OA N HD          # ligand atom types
+receptor fgf1r_4uwc_rec.pdbqt        # macromolecule
+gridcenter 84.99 1.033 8.447         # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map fgf1r_4uwc_rec.A.map             # atom-specific affinity map
+map fgf1r_4uwc_rec.C.map             # atom-specific affinity map
+map fgf1r_4uwc_rec.NA.map            # atom-specific affinity map
+map fgf1r_4uwc_rec.OA.map            # atom-specific affinity map
+map fgf1r_4uwc_rec.N.map             # atom-specific affinity map
+map fgf1r_4uwc_rec.HD.map            # atom-specific affinity map
+elecmap fgf1r_4uwc_rec.e.map         # electrostatic potential map
+dsolvmap fgf1r_4uwc_rec.d.map              # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant

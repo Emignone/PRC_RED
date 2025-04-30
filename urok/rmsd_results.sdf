@@ -1,0 +1,501 @@
+
+  MOLSOFT 04252511592D
+
+  0  0  0  0  0  0  0  0  0  0999 V2000
+M  END
+> <rmsd_1ejn_1f5k>
+0.
+
+> <rmsd_1ejn_1f5l>
+0.
+
+> <rmsd_1ejn_1f92>
+0.
+
+> <rmsd_1ejn_1gi8>
+0.
+
+> <rmsd_1ejn_2o8t>
+0.
+
+> <rmsd_1ejn_2viv>
+0.
+
+> <rmsd_1ejn_3mhw>
+0.
+
+> <rmsd_1ejn_5z1c>
+0.
+
+> <rmsd_1ejn_5za7>
+0.
+
+> <rmsd_1ejn_1sqt>
+0.
+
+> <rmsd_1f5k_1f5l>
+0.
+
+> <rmsd_1f5k_1f92>
+0.
+
+> <rmsd_1f5k_1gi8>
+0.
+
+> <rmsd_1f5k_2o8t>
+0.
+
+> <rmsd_1f5k_2viv>
+0.
+
+> <rmsd_1f5k_3mhw>
+0.
+
+> <rmsd_1f5k_5z1c>
+0.
+
+> <rmsd_1f5k_5za7>
+0.
+
+> <rmsd_1f5k_1sqt>
+0.
+
+> <rmsd_1f5l_1f92>
+0.
+
+> <rmsd_1f5l_1gi8>
+0.
+
+> <rmsd_1f5l_2o8t>
+0.
+
+> <rmsd_1f5l_2viv>
+0.
+
+> <rmsd_1f5l_3mhw>
+0.
+
+> <rmsd_1f5l_5z1c>
+0.
+
+> <rmsd_1f5l_5za7>
+0.
+
+> <rmsd_1f5l_1sqt>
+0.
+
+> <rmsd_1f92_1gi8>
+0.
+
+> <rmsd_1f92_2o8t>
+0.
+
+> <rmsd_1f92_2viv>
+0.
+
+> <rmsd_1f92_3mhw>
+0.
+
+> <rmsd_1f92_5z1c>
+0.
+
+> <rmsd_1f92_5za7>
+0.
+
+> <rmsd_1f92_1sqt>
+0.
+
+> <rmsd_1gi8_2o8t>
+0.
+
+> <rmsd_1gi8_2viv>
+0.
+
+> <rmsd_1gi8_3mhw>
+0.
+
+> <rmsd_1gi8_5z1c>
+0.
+
+> <rmsd_1gi8_5za7>
+0.
+
+> <rmsd_1gi8_1sqt>
+0.
+
+> <rmsd_2o8t_2viv>
+0.
+
+> <rmsd_2o8t_3mhw>
+0.
+
+> <rmsd_2o8t_5z1c>
+0.
+
+> <rmsd_2o8t_5za7>
+0.
+
+> <rmsd_2o8t_1sqt>
+0.
+
+> <rmsd_2viv_3mhw>
+0.
+
+> <rmsd_2viv_5z1c>
+0.
+
+> <rmsd_2viv_5za7>
+0.
+
+> <rmsd_2viv_1sqt>
+0.
+
+> <rmsd_3mhw_5z1c>
+0.
+
+> <rmsd_3mhw_5za7>
+0.
+
+> <rmsd_3mhw_1sqt>
+0.
+
+> <rmsd_5z1c_5za7>
+0.
+
+> <rmsd_5z1c_1sqt>
+0.
+
+> <rmsd_5za7_1sqt>
+0.
+
+> <rmsd_1ejn_1f5k_1>
+0.
+
+> <rmsd_1ejn_1f5l_1>
+0.
+
+> <rmsd_1ejn_1f92_1>
+0.
+
+> <rmsd_1ejn_1gi8_1>
+0.
+
+> <rmsd_1ejn_2o8t_1>
+0.
+
+> <rmsd_1ejn_2viv_1>
+0.
+
+> <rmsd_1ejn_3mhw_1>
+0.
+
+> <rmsd_1ejn_5z1c_1>
+0.
+
+> <rmsd_1ejn_5za7_1>
+0.
+
+> <rmsd_1ejn_1sqt_1>
+0.
+
+> <rmsd_1f5k_1f5l_1>
+0.
+
+> <rmsd_1f5k_1f92_1>
+0.
+
+> <rmsd_1f5k_1gi8_1>
+0.
+
+> <rmsd_1f5k_2o8t_1>
+0.
+
+> <rmsd_1f5k_2viv_1>
+0.
+
+> <rmsd_1f5k_3mhw_1>
+0.
+
+> <rmsd_1f5k_5z1c_1>
+0.
+
+> <rmsd_1f5k_5za7_1>
+0.
+
+> <rmsd_1f5k_1sqt_1>
+0.
+
+> <rmsd_1f5l_1f92_1>
+0.
+
+> <rmsd_1f5l_1gi8_1>
+0.
+
+> <rmsd_1f5l_2o8t_1>
+0.
+
+> <rmsd_1f5l_2viv_1>
+0.
+
+> <rmsd_1f5l_3mhw_1>
+0.
+
+> <rmsd_1f5l_5z1c_1>
+0.
+
+> <rmsd_1f5l_5za7_1>
+0.
+
+> <rmsd_1f5l_1sqt_1>
+0.
+
+> <rmsd_1f92_1gi8_1>
+0.
+
+> <rmsd_1f92_2o8t_1>
+0.
+
+> <rmsd_1f92_2viv_1>
+0.
+
+> <rmsd_1f92_3mhw_1>
+0.
+
+> <rmsd_1f92_5z1c_1>
+0.
+
+> <rmsd_1f92_5za7_1>
+0.
+
+> <rmsd_1f92_1sqt_1>
+0.
+
+> <rmsd_1gi8_2o8t_1>
+0.
+
+> <rmsd_1gi8_2viv_1>
+0.
+
+> <rmsd_1gi8_3mhw_1>
+0.
+
+> <rmsd_1gi8_5z1c_1>
+0.
+
+> <rmsd_1gi8_5za7_1>
+0.
+
+> <rmsd_1gi8_1sqt_1>
+0.
+
+> <rmsd_2o8t_2viv_1>
+0.
+
+> <rmsd_2o8t_3mhw_1>
+0.
+
+> <rmsd_2o8t_5z1c_1>
+0.
+
+> <rmsd_2o8t_5za7_1>
+0.
+
+> <rmsd_2o8t_1sqt_1>
+0.
+
+> <rmsd_2viv_3mhw_1>
+0.
+
+> <rmsd_2viv_5z1c_1>
+0.
+
+> <rmsd_2viv_5za7_1>
+0.
+
+> <rmsd_2viv_1sqt_1>
+0.
+
+> <rmsd_3mhw_5z1c_1>
+0.
+
+> <rmsd_3mhw_5za7_1>
+0.
+
+> <rmsd_3mhw_1sqt_1>
+0.
+
+> <rmsd_5z1c_5za7_1>
+0.
+
+> <rmsd_5z1c_1sqt_1>
+0.
+
+> <rmsd_5za7_1sqt_1>
+0.
+
+> <rmsd_1ejn_1f5k_2>
+2.161256e-11
+
+> <rmsd_1ejn_1f5l_2>
+2.161256e-11
+
+> <rmsd_1ejn_1f92_2>
+0.
+
+> <rmsd_1ejn_1gi8_2>
+0.
+
+> <rmsd_1ejn_2o8t_2>
+0.
+
+> <rmsd_1ejn_2viv_2>
+0.
+
+> <rmsd_1ejn_3mhw_2>
+0.
+
+> <rmsd_1ejn_5z1c_2>
+0.
+
+> <rmsd_1ejn_5za7_2>
+0.
+
+> <rmsd_1ejn_1sqt_2>
+0.
+
+> <rmsd_1f5k_1f5l_2>
+5.076455e-14
+
+> <rmsd_1f5k_1f92_2>
+0.
+
+> <rmsd_1f5k_1gi8_2>
+0.
+
+> <rmsd_1f5k_2o8t_2>
+0.
+
+> <rmsd_1f5k_2viv_2>
+0.
+
+> <rmsd_1f5k_3mhw_2>
+0.
+
+> <rmsd_1f5k_5z1c_2>
+0.
+
+> <rmsd_1f5k_5za7_2>
+0.
+
+> <rmsd_1f5k_1sqt_2>
+0.
+
+> <rmsd_1f5l_1f92_2>
+0.
+
+> <rmsd_1f5l_1gi8_2>
+0.
+
+> <rmsd_1f5l_2o8t_2>
+0.
+
+> <rmsd_1f5l_2viv_2>
+0.
+
+> <rmsd_1f5l_3mhw_2>
+0.
+
+> <rmsd_1f5l_5z1c_2>
+0.
+
+> <rmsd_1f5l_5za7_2>
+0.
+
+> <rmsd_1f5l_1sqt_2>
+0.
+
+> <rmsd_1f92_1gi8_2>
+0.
+
+> <rmsd_1f92_2o8t_2>
+0.
+
+> <rmsd_1f92_2viv_2>
+0.
+
+> <rmsd_1f92_3mhw_2>
+0.
+
+> <rmsd_1f92_5z1c_2>
+0.
+
+> <rmsd_1f92_5za7_2>
+0.
+
+> <rmsd_1f92_1sqt_2>
+0.
+
+> <rmsd_1gi8_2o8t_2>
+0.
+
+> <rmsd_1gi8_2viv_2>
+0.
+
+> <rmsd_1gi8_3mhw_2>
+0.
+
+> <rmsd_1gi8_5z1c_2>
+0.
+
+> <rmsd_1gi8_5za7_2>
+0.
+
+> <rmsd_1gi8_1sqt_2>
+0.
+
+> <rmsd_2o8t_2viv_2>
+0.
+
+> <rmsd_2o8t_3mhw_2>
+0.
+
+> <rmsd_2o8t_5z1c_2>
+0.
+
+> <rmsd_2o8t_5za7_2>
+0.
+
+> <rmsd_2o8t_1sqt_2>
+0.
+
+> <rmsd_2viv_3mhw_2>
+0.
+
+> <rmsd_2viv_5z1c_2>
+0.
+
+> <rmsd_2viv_5za7_2>
+0.
+
+> <rmsd_2viv_1sqt_2>
+0.
+
+> <rmsd_3mhw_5z1c_2>
+0.
+
+> <rmsd_3mhw_5za7_2>
+0.
+
+> <rmsd_3mhw_1sqt_2>
+0.
+
+> <rmsd_5z1c_5za7_2>
+0.
+
+> <rmsd_5z1c_1sqt_2>
+0.
+
+> <rmsd_5za7_1sqt_2>
+0.
+
+$$$$
